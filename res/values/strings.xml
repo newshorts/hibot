@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello this is the first android app from Mike</string>
+    <string name="app_name">HiBot</string>
+    <string name="button_forward">Forward</string>
+    <string name="button_backward">Backward</string>
+</resources>

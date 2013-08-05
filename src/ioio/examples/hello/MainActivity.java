@@ -187,9 +187,9 @@ public class MainActivity extends IOIOActivity {
 				if(motionForward) {
 					
 					// forward
-					in1.write(true);
+					in1.write(false);
 					ena.write(true);
-					in2.write(false);
+					in2.write(true);
 					
 					in3.write(false);
 					enb.write(true);
@@ -198,9 +198,9 @@ public class MainActivity extends IOIOActivity {
 				} else if(motionBackward) {
 					
 					// backward
-					in1.write(false);
+					in1.write(true);
 					ena.write(true);
-					in2.write(true);
+					in2.write(false);
 					
 					in3.write(true);
 					enb.write(true);
